@@ -126,7 +126,7 @@ div.FGALERY_element {
     margin-left: 2%;
     border: 1px solid #ccc;
     float: left;
-    width: 30%;
+    width: 30.5%;
     margin-top: 0.5rem;
 }
 
@@ -149,6 +149,20 @@ div.desc {
     section {
         width: 90%;
         margin-left: 5%;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    div.FGALERY_element {
+        width: 46.5%;
+    }
+}
+
+@media (max-width: 750px)
+{
+    div.FGALERY_element {
+        width: 95%;
     }
 }
 
