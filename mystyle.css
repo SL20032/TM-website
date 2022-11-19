@@ -93,32 +93,43 @@ section {
     float: left;
     margin-top: 5px;
     padding-bottom: 10px; 
-    background-color: rgb(175, 175, 175);
 }
 
 
 .HOME_SITE {
-    background: linear-gradient(90deg, rgba(54, 97, 111,1) 0%, rgba(54, 97, 111,1) 1rem, rgba(175, 175, 175,1) 1rem, rgba(175, 175, 175,1) 100%);
+    background: linear-gradient(90deg, rgba(54, 97, 111,1) 0%, rgba(54, 97, 111,1) 1rem, rgba(185, 185, 185,1) 1rem, rgba(185, 185, 185,1) 100%);
 }
 
 .FGALERY {
-    background: linear-gradient(90deg, rgba(52, 51, 114,1) 0%, rgba(52, 51, 114,1) 1rem, rgba(175, 175, 175,1) 1rem, rgba(175, 175, 175,1) 100%);
+    background: linear-gradient(90deg, rgba(52, 51, 114,1) 0%, rgba(52, 51, 114,1) 1rem, rgba(185, 185, 185,1) 1rem, rgba(185, 185, 185,1) 100%);
 }
 
 .AGALERY {
-    background: linear-gradient(90deg, rgba(114, 114, 51,1) 0%, rgba(114, 114, 51,1) 1rem, rgba(175, 175, 175,1) 1rem, rgba(175, 175, 175,1) 100%);
+    background: linear-gradient(90deg, rgba(114, 114, 51,1) 0%, rgba(114, 114, 51,1) 1rem, rgba(185, 185, 185,1) 1rem, rgba(185, 185, 185,1) 100%);
 }
 
 .VGALERY {
-    background: linear-gradient(90deg, rgba(51, 114, 68,1) 0%, rgba(51, 114, 68,1) 1rem, rgba(175, 175, 175,1) 1rem, rgba(175, 175, 175,1) 100%);
+    background: linear-gradient(90deg, rgba(51, 114, 68,1) 0%, rgba(51, 114, 68,1) 1rem, rgba(185, 185, 185,1) 1rem, rgba(185, 185, 185,1) 100%);
+}
+
+
+article {
+    margin-left: 1.75rem;
+    width: calc(100% - 3.5rem);
+    float: left;
 }
 
 article.FGALERY_slot {
-    margin-left: 1.75rem;
-    width: calc(100% - 3.5rem);
     margin-bottom: 1rem;
     margin-top: 0px;
     padding-bottom: 10px;
+}
+
+article.VGALERY_slot {
+    margin-bottom: 1rem;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    width: calc(100% - 3.5rem);
 }
 
 div.FGALERY_element {
@@ -135,10 +146,37 @@ div.FGALERY_element img {
     height: auto;
   }
 
-div.desc {
+div.FGALERY_disc {
     padding: 15px;
     color: lightgray;
     text-align: center;
+}
+
+div.VGALERY_element {
+    margin-left: 2%;
+    float: left;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-bottom: 0px;
+}
+
+div.VGALERY_video {
+    float: left;
+    width: 50%;
+}
+
+div.VGALERY_description {
+    border: 3px solid white;
+    background-color:  rgb(100, 100, 100);
+    float: right;
+    width: 46%;
+    margin-right: calc(2% - 3px);
+    margin-top: 3px;
+}
+
+video {
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 1200px)
@@ -174,6 +212,8 @@ p{
 
 section p {
     padding-left: 1.75rem;
+    text-align: center;
+    font-size: 16px;
 }
 
 h1{
@@ -188,4 +228,6 @@ h2{
 
 section h2 {
     padding-left: 1.75rem;
+    text-align: center;
+    font-size: 32px;
 }
