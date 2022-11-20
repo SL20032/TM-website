@@ -183,12 +183,28 @@ div.AGALERY_audio {
     width: 95%;
 }
 
-audio {
-    width: 100%;
+div.AGALERY_spec {
+    float: left;
+    margin-top: 20px;
+    width: 38%;
 }
 
-div.download-button {
-    margin-left: 1.75rem;
+div.AGALERY_opis {
+    float: right;
+    margin-top: 20px;
+    margin-right: 8%;
+    width: 50%;
+}
+
+div.AGALERY_przycisk {
+    float: right;
+    margin-top: 45px;
+    margin-right: 8%;
+    width: 50%;
+}
+
+audio {
+    width: 100%;
 }
 
 @media (max-width: 1200px)
@@ -244,7 +260,24 @@ section h2 {
     font-size: 32px;
 }
 
+div.AGALERY_title h2{
+    padding-left: 3px;
+    text-align: left;
+    font-size: 32px;
+}
+
 div.VGALERY_description p{
+    text-align: start;
+    font-size: 18px; 
+}
+
+div.AGALERY_spec p{
+    text-align: start;
+    font-size: 18px; 
+    padding-left: 3px;
+}
+
+div.AGALERY_opis p{
     text-align: start;
     font-size: 18px; 
 }
