@@ -1,0 +1,33 @@
+<rss version="2.0">
+    <channel>
+        <title>Kanał RSS Video</title>
+        <link>http://bsd.ktit.polsl.pl/~lisek</link>
+        <description>Kanał RSS umożliwaijący dostęp do plików video</description>
+        <language>pl-pl</language>
+        <copyright>Copyright 2021 by Stanisław Lisek</copyright>
+        <item>
+            <title>Wprowadzenie do projektu</title>
+            <pubDate>Sun, 19 Nov 2022 00:00:00 GMT</pubDate>
+            <link>http://bsd.ktit.polsl.pl/~lisek/gvideo.html</link>
+            <description>Film opowiadający o podstawowych informacjach o prezentowanym projekcie</description>
+            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film1.mp4</guid>
+            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film1.mp4" length="38531323" type="video/mpeg"/>
+        </item>
+        <item>
+            <title>Opis podsystemów cyfrowych</title>
+            <pubDate>Sun, 19 Nov 2022 00:00:00 GMT</pubDate>
+            <link>http://bsd.ktit.polsl.pl/~lisek/gvideo.html</link>
+            <description>Film opowiadający o struktórze i zasadzie dzałanie podsystemów cyfrowych projektu</description>
+            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film2.mp4</guid>
+            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film2.mp4" length="35202646" type="video/mpeg"/>
+        </item>
+        <item>
+            <title>Opis podsystemów analogowych</title>
+            <pubDate>Sun, 19 Nov 2022 00:00:00 GMT</pubDate>
+            <link>http://bsd.ktit.polsl.pl/~lisek/gvideo.html</link>
+            <description>Film opowiadający o struktórze i zasadzie dzałanie podsystemów analogowych projektu</description>
+            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film3.mp4</guid>
+            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film3.mp4" length="31341370" type="video/mpeg"/>
+        </item>
+    </channel>
+</rss>
