@@ -10,24 +10,24 @@
             <pubDate>Sun, 19 Nov 2022 00:00:00 GMT</pubDate>
             <link>http://bsd.ktit.polsl.pl/~lisek/gvideo.html</link>
             <description>Film opowiadający o podstawowych informacjach o prezentowanym projekcie</description>
-            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film1.mp4</guid>
-            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film1.mp4" length="38531323" type="video/mpeg"/>
+            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/Wprowadzenie-do-projektu.mp4</guid>
+            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/Wprowadzenie-do-projektu.mp4" length="38531323" type="video/mpeg"/>
         </item>
         <item>
             <title>Opis podsystemów cyfrowych</title>
             <pubDate>Sun, 19 Nov 2022 00:00:00 GMT</pubDate>
             <link>http://bsd.ktit.polsl.pl/~lisek/gvideo.html</link>
             <description>Film opowiadający o struktórze i zasadzie dzałanie podsystemów cyfrowych projektu</description>
-            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film2.mp4</guid>
-            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film2.mp4" length="35202646" type="video/mpeg"/>
+            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/Opis-podsystemow-cyf.mp4</guid>
+            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/Opis-podsystemow-cyf.mp4" length="35202646" type="video/mpeg"/>
         </item>
         <item>
             <title>Opis podsystemów analogowych</title>
             <pubDate>Sun, 19 Nov 2022 00:00:00 GMT</pubDate>
             <link>http://bsd.ktit.polsl.pl/~lisek/gvideo.html</link>
             <description>Film opowiadający o struktórze i zasadzie dzałanie podsystemów analogowych projektu</description>
-            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film3.mp4</guid>
-            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/Film3.mp4" length="31341370" type="video/mpeg"/>
+            <guid>http://bsd.ktit.polsl.pl/~lisek/video_galeria/opis-podsystemow-analog.mp4</guid>
+            <enclosure url="http://bsd.ktit.polsl.pl/~lisek/video_galeria/opis-podsystemow-analog.mp4" length="31341370" type="video/mpeg"/>
         </item>
     </channel>
 </rss>
