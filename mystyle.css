@@ -119,17 +119,10 @@ article {
     float: left;
 }
 
-article.FGALERY_slot {
+article.GALERY_slot {
     margin-bottom: 1rem;
     margin-top: 0px;
     padding-bottom: 10px;
-}
-
-article.VGALERY_slot {
-    margin-bottom: 1rem;
-    margin-top: 0px;
-    padding-bottom: 10px;
-    width: calc(100% - 3.5rem);
 }
 
 div.FGALERY_element {
@@ -177,10 +170,26 @@ video {
     height: auto;
 }
 
+div.AGALERY_element {
+    margin-left: 2%;
+    float: left;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-bottom: 0px;
+}
+
+div.AGALERY_audio {
+    float: left;
+    width: 95%;
+}
+
+audio {
+    width: 100%;
+}
+
 div.download-button {
     margin-left: 1.75rem;
 }
-
 
 @media (max-width: 1200px)
 {
