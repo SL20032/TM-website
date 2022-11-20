@@ -1,6 +1,9 @@
 body{
     background-color: lightgray;
     margin-top: 10px;
+    position: relative;
+    padding-bottom: 0px;
+    min-height: 100vh;
 }
 
 header{
@@ -98,6 +101,27 @@ section {
     float: left;
     margin-top: 5px;
     padding-bottom: 10px; 
+    position: relative;
+}
+
+footer {
+    width: calc(90% - 15px);
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    float: left;
+    border-top: 5px double rgb(200, 200, 200);
+    background-color: rgb(55, 55, 55);
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+
+footer.footer-problem {
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -263,6 +287,14 @@ section h2 {
     padding-left: 1.75rem;
     text-align: center;
     font-size: 32px;
+}
+
+section.HOME_SITE h2 {
+    text-align: left;
+}
+
+section.HOME_SITE p {
+    text-align: left;
 }
 
 div.AGALERY_title h2{
