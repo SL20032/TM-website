@@ -234,6 +234,15 @@ audio {
     width: 100%;
 }
 
+
+@media (max-width: 1400px)
+{
+    div.FGALERY_element {
+        width: 46.5%;
+    }
+}
+
+
 @media (max-width: 1200px)
 {
     aside {
@@ -246,14 +255,7 @@ audio {
     }
 }
 
-@media (max-width: 1000px)
-{
-    div.FGALERY_element {
-        width: 46.5%;
-    }
-}
-
-@media (max-width: 750px)
+@media (max-width: 875px)
 {
     div.FGALERY_element {
         width: 95%;
